@@ -1,0 +1,18 @@
+Admin Dashboard:
+t = ToDoList.objects
+
+t.all()
+t.get() 		# Item id
+t.filter()		# Get parameters online
+
+__ = ___		# Define items in Console
+.save()			# Saves item to database
+quit()			# Bring you out of the Console
+
+access admin page:
+	In console, type "python manage.py createsuperuser"
+	create credentials
+	go to /admin/
+
+bootstrap
+https://getbootstrap.com/
